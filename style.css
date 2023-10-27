@@ -241,7 +241,507 @@ right: 10px;
 top: 30px;
 
 }
-@media (max-width: 404px) {
+@media (max-width: 200px) {
+    .header a{
+        display: none;
+    }
+    .themeButton {
+        /* display: none;
+        right: -88px; */
+        top: 0;
+        width: 56px;
+        height: 26px;
+    }
+    .theme{
+        width: 20px;
+        height: 20px;
+    }
+    .hero button{
+font-size: 15px;
+padding: 5px 20px;
+    }
+    .hero svg{
+        width: 20px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+    
+.hero-text h1 {
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 10px;
+}
+.hero {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.hero-text p{
+    font-size: 13px;
+    line-height: 15px;
+}
+.hero img{
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+}
+.select h1{
+    font-size: 20px;
+    line-height :30px;
+    
+}
+.select h1 span{
+    line-height :33px;
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+.select{
+    margin-top: 80px;
+}
+.code{
+    margin-top: 160px;
+    flex-direction: column-reverse;
+    gap:30px;
+}
+.code-text h2{
+    font-size: 20px;
+} 
+.code-text p{
+    font-size: 20px;
+}
+.code img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.code-btn{
+    margin-top: 55px;
+}
+.code button {
+font-size: 10px;
+font-weight: 400;
+}
+.code-bot{
+margin-top: 200px;
+}
+.code-bot h1{
+    font-size: 26px;
+    line-height: 37px;
+    font-weight: 400;
+
+}
+.code-bot img{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+}
+.code-bot p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+}@media (max-width: 300px) {
+    .header a{
+        display: none;
+    }
+    .themeButton {
+        /* display: none;
+        right: -88px; */
+        top: 0;
+        width: 56px;
+        height: 26px;
+    }
+    .theme{
+        width: 20px;
+        height: 20px;
+    }
+    .hero button{
+font-size: 15px;
+padding: 5px 20px;
+    }
+    .hero svg{
+        width: 20px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+    
+.hero-text h1 {
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 10px;
+}
+.hero {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.hero-text p{
+    font-size: 13px;
+    line-height: 15px;
+}
+.hero img{
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+}
+.select h1{
+    font-size: 20px;
+    line-height :30px;
+    
+}
+.select h1 span{
+    line-height :33px;
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+.select{
+    margin-top: 80px;
+}
+.code{
+    margin-top: 160px;
+    flex-direction: column-reverse;
+    gap:30px;
+}
+.code-text h2{
+    font-size: 20px;
+} 
+.code-text p{
+    font-size: 20px;
+}
+.code img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.code-btn{
+    margin-top: 55px;
+}
+.code button {
+font-size: 10px;
+font-weight: 400;
+}
+.code-bot{
+margin-top: 200px;
+}
+.code-bot h1{
+    font-size: 26px;
+    line-height: 37px;
+    font-weight: 400;
+
+}
+.code-bot img{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+}
+.code-bot p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+}@media (max-width: 150px) {
+    .header a{
+        display: none;
+    }
+    .themeButton {
+        /* display: none;
+        right: -88px; */
+        top: 0;
+        width: 56px;
+        height: 26px;
+    }
+    .theme{
+        width: 20px;
+        height: 20px;
+    }
+    .hero button{
+font-size: 15px;
+padding: 5px 20px;
+    }
+    .hero svg{
+        width: 20px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+    
+.hero-text h1 {
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 10px;
+}
+.hero {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.hero-text p{
+    font-size: 13px;
+    line-height: 15px;
+}
+.hero img{
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+}
+.select h1{
+    font-size: 20px;
+    line-height :30px;
+    
+}
+.select h1 span{
+    line-height :33px;
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+.select{
+    margin-top: 80px;
+}
+.code{
+    margin-top: 160px;
+    flex-direction: column-reverse;
+    gap:30px;
+}
+.code-text h2{
+    font-size: 20px;
+} 
+.code-text p{
+    font-size: 20px;
+}
+.code img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.code-btn{
+    margin-top: 55px;
+}
+.code button {
+font-size: 10px;
+font-weight: 400;
+}
+.code-bot{
+margin-top: 200px;
+}
+.code-bot h1{
+    font-size: 26px;
+    line-height: 37px;
+    font-weight: 400;
+
+}
+.code-bot img{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+}
+.code-bot p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+}@media (max-width: 404px) {
+    .header a{
+        display: none;
+    }
+    .themeButton {
+        /* display: none;
+        right: -88px; */
+        top: 0;
+        width: 56px;
+        height: 26px;
+    }
+    .theme{
+        width: 20px;
+        height: 20px;
+    }
+    .hero button{
+font-size: 15px;
+padding: 5px 20px;
+    }
+    .hero svg{
+        width: 20px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+    
+.hero-text h1 {
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 10px;
+}
+.hero {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.hero-text p{
+    font-size: 13px;
+    line-height: 15px;
+}
+.hero img{
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+}
+.select h1{
+    font-size: 20px;
+    line-height :30px;
+    
+}
+.select h1 span{
+    line-height :33px;
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+.select{
+    margin-top: 80px;
+}
+.code{
+    margin-top: 160px;
+    flex-direction: column-reverse;
+    gap:30px;
+}
+.code-text h2{
+    font-size: 20px;
+} 
+.code-text p{
+    font-size: 20px;
+}
+.code img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.code-btn{
+    margin-top: 55px;
+}
+.code button {
+font-size: 10px;
+font-weight: 400;
+}
+.code-bot{
+margin-top: 200px;
+}
+.code-bot h1{
+    font-size: 26px;
+    line-height: 37px;
+    font-weight: 400;
+
+}
+.code-bot img{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+}
+.code-bot p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+}@media (max-width: 100px) {
+    .header a{
+        display: none;
+    }
+    .themeButton {
+        /* display: none;
+        right: -88px; */
+        top: 0;
+        width: 56px;
+        height: 26px;
+    }
+    .theme{
+        width: 20px;
+        height: 20px;
+    }
+    .hero button{
+font-size: 15px;
+padding: 5px 20px;
+    }
+    .hero svg{
+        width: 20px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+    
+.hero-text h1 {
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 10px;
+}
+.hero {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.hero-text p{
+    font-size: 13px;
+    line-height: 15px;
+}
+.hero img{
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+}
+.select h1{
+    font-size: 20px;
+    line-height :30px;
+    
+}
+.select h1 span{
+    line-height :33px;
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+.select{
+    margin-top: 80px;
+}
+.code{
+    margin-top: 160px;
+    flex-direction: column-reverse;
+    gap:30px;
+}
+.code-text h2{
+    font-size: 20px;
+} 
+.code-text p{
+    font-size: 20px;
+}
+.code img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.code-btn{
+    margin-top: 55px;
+}
+.code button {
+font-size: 10px;
+font-weight: 400;
+}
+.code-bot{
+margin-top: 200px;
+}
+.code-bot h1{
+    font-size: 26px;
+    line-height: 37px;
+    font-weight: 400;
+
+}
+.code-bot img{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+}
+.code-bot p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+}@media (max-width: 250px) {
     .header a{
         display: none;
     }
