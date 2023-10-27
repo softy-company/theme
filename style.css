@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background: #f1f0f0b5;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.header-nav a{
+    color: rgba(18, 16, 12, 0.70);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+.header-nav{
+    display: flex;
+    gap: 60px;
+}
+.header-button button{
+    color: #F9F9F9;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    padding: 6px 22px;
+    border-radius: 20px;
+    border:none;
+    background: #12100C;
+}
+ .hero {
+    display: flex;
+    align-items: center;
+    margin-top: 155px;
+    justify-content: space-between;
+    /* background: #12100CB2; */
+
+ }
+ .hero-img img{
+  /* border-radius: 1000px; */
+  /* box-shadow:
+  -70px -10px 50px 10px rgb(139,139,139), -40px -40px 50px 10px rgb(118,118,118),
+  20px -20px 50px 10px rgb(138,138,138), 40px 40px 50px 10px rgb(117,117,117); */
+ }
+ 
+.hero-text{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+}
+.hero-text h1{
+    color: #12100C;
+font-family: Roboto;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 88px; /* 110% */
+margin-bottom: 40px;
+}
+.hero-text p{
+    color: rgba(18, 16, 12, 0.70);
+font-family: Roboto;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: 31.92px; /* 138.783% */
+
+}
+.hero-button button{
+    padding: 11px 45px;
+    color: #12100C;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22.5px; /* 125% */
+border-radius: 16px;
+background: #FFAE33;
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+border:none;
+}
+.hero-button{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.hero-button p{
+    font-size: 15px;
+    line-height: 20px;
+}
+.hero-icon{
+    margin-left: 10px;
+}
+.hero-icon svg{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.select h1{
+text-align: center;
+color: #12100C;
+text-align: center;
+/* font-family: Roboto; */
+font-size: 54px;
+font-style: normal;
+font-weight: 900;
+line-height: 63.72px; 
+
+}
+.select{
+    margin-top: 150px;
+}
+.select h1 span{
+    color: #999795;
+    text-align: center;
+    /* font-family: Roboto; */
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63.72px; /* 118% */
+    text-decoration-line: line-through;
+}
+.code {
+    margin-top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.code-text h2 {
+    color: #12100C;
+    /* font-family: Roboto; */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+}
+.code-text p {
+    color: rgba(18, 16, 12, 0.70);
+/* font-family: Roboto; */
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 31.92px; /* 133% */
+}
+.code-btn{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.code-btn  button{
+    color: #12100C;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px; /* 114.286% */
+border-radius: 10.5px;
+background: #FFAE33;
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+    padding: 8px 24px;
+}
+.btn-left button {
+    background: #FFB0AE;
+
+}
+button {
+    border:none
+}
+.code-bot h1{
+    color: #12100C;
+text-align: center;
+/* font-family: Roboto; */
+font-size: 54px;
+font-style: normal;
+font-weight: 700;
+line-height: 71.82px; /* 133% */
+}
+.code-bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 300px;
+    }
+.code-bot p{
+    color: rgba(18, 16, 12, 0.70);
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+line-height: 31.92px; /* 133% */
+margin-top: 20px;
+}
+.login {
+    width: 100px;
+    height: 50px;
+    background: #000;
+}
+.theme{
+   
+     /* display: flex ;
+    align-items: center;
+    justify-content: flex-start;     */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000;
+    margin-left: 5px;
+    transition: 0.5s;
+/* animation: theme 1s 1  ease ; */
+
+} 
+
+ .themeButton {
+    width: 100px;
+    height: 50px;
+    /* position: relative; */
+    /* padding: 20px 10px; */
+    background: #fff;
+    box-shadow: 1px 10px 111px #b5bdbc;
+    border:none;
+    border-radius: 20px;
+    display: flex ;
+    align-items: center;
+    justify-content: flex-start;    
+position: absolute;
+right: 10px;
+top: 30px;
+
+}
+@media (max-width: 360px) {
+    .header a{
+        display: none;
+    }
+    .themeButton {
+        /* display: none;
+        right: -88px; */
+        top: 0;
+        width: 56px;
+        height: 26px;
+    }
+    .theme{
+        width: 20px;
+        height: 20px;
+    }
+    .hero button{
+font-size: 15px;
+padding: 5px 20px;
+    }
+    .hero svg{
+        width: 20px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+    
+.hero-text h1 {
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 10px;
+}
+.hero {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.hero-text p{
+    font-size: 13px;
+    line-height: 15px;
+}
+.hero img{
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+}
+.select h1{
+    font-size: 20px;
+    line-height :30px;
+    
+}
+.select h1 span{
+    line-height :33px;
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+.select{
+    margin-top: 80px;
+}
+.code{
+    margin-top: 160px;
+    flex-direction: column-reverse;
+    gap:30px;
+}
+.code-text h2{
+    font-size: 20px;
+} 
+.code-text p{
+    font-size: 20px;
+}
+.code img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.code-btn{
+    margin-top: 55px;
+}
+.code button {
+font-size: 10px;
+font-weight: 400;
+}
+.code-bot{
+margin-top: 200px;
+}
+.code-bot h1{
+    font-size: 26px;
+    line-height: 37px;
+    font-weight: 400;
+
+}
+.code-bot img{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+}
+.code-bot p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+}
